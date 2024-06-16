@@ -73,8 +73,8 @@ main {
 .info .descricao {
     margin-bottom: 8px;
     font-size: 18px;
-    justify-content: center;
-    text-align: center;
+    justify-content: left;
+    text-align: left;
     
 }
 
