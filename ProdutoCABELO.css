@@ -74,7 +74,24 @@ main {
     text-transform: uppercase;
 }
 
+.info1 {
+    max-width: 100%;
+}
+
+.info1 h2  {
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
 .info .descricao {
+    margin-bottom: 8px;
+    font-size: 18px;
+    justify-content: left;
+    text-align: left;    
+}
+
+.info1 .descricao {
     margin-bottom: 8px;
     font-size: 18px;
     justify-content: left;
@@ -130,6 +147,11 @@ footer p{
     }
 
     .info h2 {
+        font-size: 24px;
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .info1 h2 {
         font-size: 24px;
         text-align: center; /* Centraliza o texto */
     }
