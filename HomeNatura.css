@@ -116,7 +116,6 @@ nav ul li a:hover {
     object-fit: cover;
 }
 
-
 /* Quando passar o mouse sobre */
 .container a.active,
 .container a:hover {
@@ -156,22 +155,20 @@ p {
 /* Elemente Pai do FlexBox */
 .container {
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: row-reverse;
-    width: 90%;
     flex-wrap: wrap;
-    justify-content: right;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
 }
 
 /* Elementos Filhos */
 .card {
     width: 290px;
     height: 400px;
-    margin: 100px;
-    margin-top: 5px;
-    margin-left: -20px;
-    margin-bottom: 10px;
-    padding: 27px;     /* Ajustado o padding */
+    margin: 10px;
+    margin-top: 30px;
+    padding: 27px;
+    /* Ajustado o padding */
     border-radius: 55px;
     box-sizing: border-box;
     text-align: center;
@@ -191,12 +188,12 @@ p {
 
 .card img {
     width: auto;
+    border-radius: 55px;
     height: 200px;
     max-width: 100%;
     text-align: center;
     margin: 0 auto;
     display: block;
-    border-radius: 55px;
 }
 
 /* Imagem do FlexBox */
@@ -416,13 +413,13 @@ h6 {
     .open {
         display: block;
     }
+
     .card {
         flex: 1 0 46%;
         /* Duas colunas no tablet */
-        margin-top: 3px;
+        margin-top: 0px;
         /* Ajuste na margem superior */
     }
-
 
     .buy-1 {
         font-size: 20px;
@@ -435,5 +432,4 @@ h6 {
         background-color: #000000;
         font-size: 17px;
     }
-
 }
